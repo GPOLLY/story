@@ -19,9 +19,10 @@ BDD
 
 | Behavior| input | output |
 | -------- | -------- | -------- |
-| user inputs century, year, month, date and gender then hits submit   | once the information is input the application calculates    | once calculated the app outputs the Akan name of the respective user     |
+| user inputs year, month, date and gender then hits submit   | once the information is input the application calculates    | once calculated the app outputs the Akan name of the respective user     |
 
 TECHNOLOGY USED
+
 HTML,CSS and JAVASCRIPT
 
 

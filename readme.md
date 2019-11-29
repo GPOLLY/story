@@ -25,6 +25,10 @@ TECHNOLOGY USED
 
 HTML,CSS and JAVASCRIPT
 
+CONTACT
+
+email:gngugi17@gmail.com
+
 
 LICENCE
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.

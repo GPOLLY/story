@@ -10,7 +10,7 @@ This project will help people to know which day they were born. Also it will be 
 
 INSTALLATION
 Just follow the following step to have it in you computer.
-* google https://https://github.com/GPOLLY/story
+* google https://github.com/GPOLLY/story
 * git clone on your directory(local computer)
     -Open command line and then type the following line. 
     - $ git clone https://github.com/GPOLLY/story.git

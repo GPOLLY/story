@@ -30,8 +30,7 @@ if (isNaN(mm) || mm < 0 || mm > 12){
   alert("Invalid Month Please Proper Month");
 }
 
-  var result=day(cc,yy,mm,dd).toFixed(); 
-  
+var result=day(cc,yy,mm,dd).toFixed();   
  
 var Male=["Kwasi","kwadwo","Kwabena","Kwaku","Yaw", "Kofi", "Kwame"];
 var female=["Akosua","Adwoa","Abenaa","Akua", "Yaa", "Afua", "Ama"];

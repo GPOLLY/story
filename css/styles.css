@@ -1,0 +1,14 @@
+body{
+    background-image: url('../images/Background.jpeg');
+    background-size: cover;
+    box-sizing: border-box;
+  }
+  .container{
+      background-color: darkgray;
+      margin-left: auto;
+      margin-right: auto;
+      height: 500px;
+      width: 800px;
+      margin-top: 50px;
+      
+  }

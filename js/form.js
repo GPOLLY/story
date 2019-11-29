@@ -15,14 +15,23 @@ function mystory() {
   var e = document.getElementById("ddlViewBy");
   var gender = e.options[e.selectedIndex].text; 
   
-//   alert(cc);
-//   alert(yy);
-//   alert(mm);
-//   alert(dd);
-//   alert(gender);
+  // alert(cc);
+  // alert(yy);
+  // alert(mm);
+  // alert(dd);
+  // alert(gender);
+
+//validation part  
+if (isNaN(dd) || dd < 0 || dd > 31){ 
+  alert("Invalid day Please Re-enter the day again");
+}
+
+if (isNaN(mm) || mm < 0 || mm > 12){ 
+  alert("Invalid day Please Re-enter the day again");
+}
 
   var result=day(cc,yy,mm,dd).toFixed();
-//   alert(result);
+  // alert(result);
   
  //these are the names of the genders 
 var males=["Kwasi","kwadwo","Kwabena","Kwaku","Yaw", "Kofi", "Kwame"];
@@ -72,7 +81,7 @@ else if (gender == "female" && result==6){
 alert("Your name is "+females[6]);
 }
 else{
-alert("null");
+alert("Invalid Information Please Re-Enter!");
 }
 }
 

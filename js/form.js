@@ -2,12 +2,12 @@ function mystory() {
     function day (cc,yy,mm,dd){
         return ((((cc/4)-2*cc-1)+((5*yy/4)) + ((26*(mm+1)/10)) + dd)%7)+1
   }
-    //picking the item inputted by the user
+    
   var cc1 = document.forms["story"]["year"].value;
-      //this is to pick the left two(cc)   
+      // this code will pick the two left items
   var cc = cc1.slice(0,2)
   var yy1 = document.forms["story"]["year"].value;
-    // this is to pick right two(yy)
+    // this code will pick the two rigth items
   var yy = yy1.slice(2,4)
 
   var mm = document.forms["story"]["month"].value;

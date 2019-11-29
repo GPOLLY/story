@@ -13,8 +13,17 @@
 
 <body>
     <div class="container">
-        <h1 style="text-align: center; font-size: 20px;">THIS IS MY STORY</h1>
-        <p>The user will input her/his birthdate and also select the gender </p>
+        <h1 style="text-align: center; font-size: 20px;">Ghanian culture</h1>
+            <div class = "topimage">
+                <div id="top">
+                    <img src="images/ghana1.jpeg" alt="top image" class="Profileimage">
+                </div>
+            </div>
+
+        <p>Frequently in Ghana, children are given their first name as a 'day name' 
+            which corresponds to the day in the week they were born.Most people do know when their birthdays are, 
+            but some might not know what day of the week they were born. Luckily for us, there are ways to 
+            calculate the day of the week from a specific date. </p>
         <div class="form">
             <form name="story" onsubmit="mystory()">
                 <label for="year">YEAR</label>
@@ -32,7 +41,7 @@
                     <option value="Male">male</option>
                 </select>
                 
-                <input type="submit" value="Submit" onclick="mystory()">
+                <input type="submit" value="Submit" onclick="mystory()" class="separate">
 
             </form>
         </div>
